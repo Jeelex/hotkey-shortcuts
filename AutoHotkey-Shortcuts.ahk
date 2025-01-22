@@ -34,8 +34,8 @@ else
 }
 return
 
-; Alt + S - Microsoft's Terminal
-!s::
+; Alt + A - Microsoft's Terminal
+!a::
 IfWinExist, ahk_exe WindowsTerminal.exe ; Microsoft's Terminal executable
 {
     WinActivate
@@ -46,8 +46,8 @@ else
 }
 return
 
-; Alt + A - Slack
-!a::
+; Alt + S - Slack
+!s::
 IfWinExist, ahk_exe slack.exe ; Slack application executable
 {
     WinActivate
