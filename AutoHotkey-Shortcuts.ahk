@@ -54,6 +54,6 @@ IfWinExist, ahk_exe slack.exe ; Slack application executable
 }
 else
 {
-    Run, C:\Users\el.koulaxis\AppData\Local\slack\slack.exe ;
+    Run, C:\Program Files\Slack Deployment\slack.exe ;
 }
 return
